@@ -1,0 +1,10 @@
+
+server:
+  port: 9011
+spring:
+  application:
+    name: HYSTRIX-DES
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
